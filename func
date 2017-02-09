@@ -1,0 +1,5 @@
+# add job name as e_job, into c_list, d_list is the container
+def join(c_list,d_list,e_job):
+	for i in c_list:
+		d_list.append([i,e_job])
+	return d_list
